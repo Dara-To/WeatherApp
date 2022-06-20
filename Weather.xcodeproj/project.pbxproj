@@ -17,6 +17,7 @@
 		6A4566BD285C561800AA5EDE /* ForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4566BC285C561800AA5EDE /* ForecastView.swift */; };
 		6A4CD53E285F122900B77AAB /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4CD53D285F122900B77AAB /* SegmentedControl.swift */; };
 		6A4DB0B7285D3D1E00CD3D26 /* Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4DB0B6285D3D1E00CD3D26 /* Blur.swift */; };
+		6A529A38286010D100445860 /* ForecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A529A37286010D100445860 /* ForecastModel.swift */; };
 		6AAA82DB2856F6FB0067B10E /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAA82DA2856F6FB0067B10E /* TabBar.swift */; };
 		6AAA82DD28571C940067B10E /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAA82DC28571C940067B10E /* Shapes.swift */; };
 /* End PBXBuildFile section */
@@ -32,6 +33,7 @@
 		6A4566BC285C561800AA5EDE /* ForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastView.swift; sourceTree = "<group>"; };
 		6A4CD53D285F122900B77AAB /* SegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
 		6A4DB0B6285D3D1E00CD3D26 /* Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blur.swift; sourceTree = "<group>"; };
+		6A529A37286010D100445860 /* ForecastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastModel.swift; sourceTree = "<group>"; };
 		6AAA82DA2856F6FB0067B10E /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		6AAA82DC28571C940067B10E /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,6 +101,7 @@
 		6A1F18F42855CB8E00F201F8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				6A529A37286010D100445860 /* ForecastModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				6A1F18E52855BE9100F201F8 /* WeatherApp.swift in Sources */,
 				6A4566BD285C561800AA5EDE /* ForecastView.swift in Sources */,
 				6AAA82DB2856F6FB0067B10E /* TabBar.swift in Sources */,
+				6A529A38286010D100445860 /* ForecastModel.swift in Sources */,
 				6AAA82DD28571C940067B10E /* Shapes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
